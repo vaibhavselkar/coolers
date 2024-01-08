@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import matplotlib.pyplot as plt
-import plotly.graph_objects as go
 
 # Load the Sales data
 df = pd.read_csv("Desert.csv")
